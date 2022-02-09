@@ -18,7 +18,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid container">
-                <a class="navbar-brand" href="#"><img src="images/logo.png" class="d-inline-block align-text-top"
+                <a class="navbar-brand" href="#"><img src="images/logo.png" class="d-inline-block align-text-top" 
                         alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -151,7 +151,7 @@
         </section>
         <!-- shoes start -->
         <section class="container" id="shoe">
-            <h1>Shoes</h1>
+            <h2>Shoes</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                     <div class="card h-100 border-0 shadow-lg">
@@ -198,11 +198,11 @@
         </section>
         <!-- backpack-starts -->
         <section class="container my-5" id="backpack">
-            <h1>Backpacks</h1>
+            <h2>Backpacks</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                     <div class="card h-100 border-0 shadow-lg">
-                        <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+                        <img src="images/bags/bag-1.png" class="card-img-top" alt="..." id="changable-img">
                         <div class="card-body">
                             <h5 class="card-title">Supply 350</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
@@ -210,7 +210,7 @@
 
                         </div>
                         <div class="m-3">
-                            <div class="btn btn-danger">Buy now</div>
+                            <div class="btn btn-danger" id="backpack-console">Buy now</div>
                         </div>
                     </div>
                 </div>
@@ -247,10 +247,10 @@
         <section class="container d-flex justify-content-center align-items-center rounded-3"
             style="background-color:#FCEAE8;height:300px" id="subscribe">
             <div>
-                <h1>LET'S STAY IN TOUCH</h1>
+                <h2>LET'S STAY IN TOUCH</h2>
                 <p>Get updates on sales, specials and more</p>
-                <input type="text" name="" placeholder="You Email pls" id="" class="p-2 rounded-3"><br>
-                <div class="btn btn-danger mt-3">Submit</div>
+                <input type="text" name="" placeholder="You Email pls" id="input" class="p-2 rounded-3"><br>
+                <button class="btn btn-danger mt-3" id="touch-submit" disabled>Submit</button>
             </div>
         </section>
     </main>
@@ -265,6 +265,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+
+        <script src="js/app.js"></script>
 
 </body>
 
